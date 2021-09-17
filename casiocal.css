@@ -1,0 +1,113 @@
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+}
+
+.body {
+  width: 100%;
+  height: 1400px;
+  border: 10px solid black;
+  border-radius: 2px;
+}
+.body #screen {
+  width: 98%;
+  height: 400px;
+  background-color: #181717;
+  margin-top: 50px;
+  margin-left: 10px;
+  overflow: scroll;
+  color: white;
+  font-weight: bold;
+}
+.body #screen #cursor {
+  padding-top: 20px;
+  margin-left: 10px;
+  font-size: 40px;
+}
+.body #screen #first, .body #screen #operator, .body #screen #second, .body #screen #getit, .body #screen #sci1, .body #screen #sci2, .body #screen #getit1, .body #screen #getit2, .body #screen #sci3, .body #screen #sci4 {
+  font-size: 40px;
+  padding-top: 20px;
+  margin-left: 10px;
+  letter-spacing: 5px;
+}
+.body #ans {
+  position: absolute;
+  margin-left: 20px;
+  font-size: 40px;
+  color: white;
+  margin-top: -70px;
+}
+.body .button {
+  flex-wrap: wrap;
+  margin-left: 18px;
+  margin-top: 10px;
+}
+.body button {
+  width: 140px;
+  margin-left: 10px;
+  font-size: 40px;
+  border-radius: 10px;
+  height: 74px;
+  margin-bottom: 30px;
+}
+.body .lg {
+  width: 170px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.mt-4 {
+  width: 10px !important;
+  display: flex;
+}
+.mt-4 input {
+  border: 2px solid white;
+  background-color: #181717;
+  margin-bottom: 5px;
+  width: 50px;
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+}
+.mt-4 .spef {
+  display: block !important;
+  width: 10px !important;
+}
+.mt-4 .spef input {
+  border: 2px solid white;
+  background-color: #181717;
+  margin-bottom: 5px;
+  width: 50px;
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+}
+
+.solve {
+  position: absolute;
+  margin-top: 74px;
+  font-size: 20px;
+  margin-left: 24px;
+  font-weight: bold;
+  color: blue;
+}
+
+.sin-1, .tan-1, .cos-1 {
+  position: absolute;
+  margin-top: 280px;
+  padding-left: 470px;
+  font-size: 25px;
+  margin-left: 24px;
+  font-weight: bold;
+  color: blue;
+}
+
+.cos-1 {
+  padding-left: 620px;
+}
+
+.tan-1 {
+  padding-left: 780px;
+}
+
+/*# sourceMappingURL=casiocal.css.map */

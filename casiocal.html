@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./casiocal.css">
+    <title>CASIO</title>
+</head>
+<body> 
+<main class="container-fluid">
+    <main class="row">
+    <main class="col-sm">
+        <div class="body">
+          <div id="screen">
+              <div class="d-flex">
+              <div id="sci1Op"></div>
+              <div id="sci1"></div>
+              <div id="first"></div>
+              <div class="mt-4" id="spef1"><input type="text" id="firinp"><div class="spef"><input type="text" id="secinp"> <input type="text" id="thirinp"></div></div> 
+              <div id="sci2"></div>
+              <div id="operator"></div>
+              <div id="sci3"></div>
+              <div id="second"></div>
+              <div id="sci4"></div>
+              <div id="getit1"></div>
+              <div id="getit2"></div>
+              <div id="cursor"></div>
+            </div>
+          </div>
+          <div id="ans"></div>
+          <div class="button d-flex">
+            <button class="btn-primary" id="casioo">SHIFT</button>
+            <button class="btn-danger">ALPHA</button>
+            <button class="btn-dark">LEFT</button>
+            <button class="btn-dark">RIGHT</button>
+            <button class="btn-dark" id="casioo">MODE</button>
+            <button class="btn-dark" id="wind" onclick="restart()">CE</button>
+            <p class="solve">SOLVE</p>
+            <button class="btn-dark">CALC</button>
+            <button class="btn-dark" id="sci">SQRT</button>
+            <button class="btn-dark">UP</button>
+            <button class="btn-dark">DOWN</button>
+            <button class="btn-dark" id="sci">1/X</button>
+            <button class="btn-dark" id="sci">loga^x</button>
+            <button class="btn-dark">G</button>
+            <button class="btn-dark" id="sci">x^3</button>
+            <button class="btn-dark" id="sci">x^2</button>
+            <button class="btn-dark" id="sci">H</button>
+            <button class="btn-dark" id="sci">log</button>
+            <button class="btn-dark" id="sci">ln</button>
+            <button class="btn-dark" id="sci">(-)</button>
+            <button class="btn-dark">"'</button>
+            <button class="btn-dark" id="sci">hyp</button>
+            <p class="sin-1">sin-1</p>
+            <button class="btn-dark" id="sci">sin</button>
+            <p class="cos-1">cos-1</p>
+            <button class="btn-dark" id="sci">cos</button>
+            <p class="tan-1">tan-1</p>
+            <button class="btn-dark" id="sci">tan</button>
+            <button class="btn-dark">RCL</button>
+            <button class="btn-dark">ENG</button>
+            <button class="btn-dark" id="Bracket">(</button>
+            <button class="btn-dark" id="Bracket">)</button>
+            <button class="btn-dark" id="special">S-D</button>
+            <button class="btn-dark" id="addup">M+</button>
+            <button class="lg btn-dark" value="7" id="digit">7</button>
+            <button class="lg btn-dark"  value="8" id="digit">8</button>
+            <button class="lg btn-dark"  value="9" id="digit">9</button>
+            <button class="lg btn-primary !important" id="del">DEL</button>
+            <button class="lg btn-primary !important" id="clr">CLR</button>
+            <button class="lg btn-dark"  value="4" id="digit">4</button>
+            <button class="lg btn-dark"  value="5" id="digit">5</button>
+            <button class="lg btn-dark"  value="6" id="digit">6</button>
+            <button class="lg btn-dark" id="ope" id="digit">*</button>
+            <button class="lg btn-dark" id="ope" id="digit">/</button>
+            <button class="lg btn-dark"  value="1" id="digit">1</button>
+            <button class="lg btn-dark"  value="2" id="digit">2</button>
+            <button class="lg btn-dark"  value="3" id="digit">3</button>
+            <button class="lg btn-dark" id="ope">+</button>
+            <button class="lg btn-dark" id="ope">-</button>
+            <button class="lg btn-dark" id="digit">0</button>
+            <button class="lg btn-dark" id="special">.</button>
+            <button class="lg btn-dark" id="ope">x10^</button>
+            <button class="lg btn-dark" id="special">ANS</button>
+            <button class="lg btn-dark" onclick="equall()">=</button>
+            </div>
+        </div>
+        </main>
+    </main>
+</main>
+ <script src="./casiocal.js"></script>   
+</body>
+</html>
